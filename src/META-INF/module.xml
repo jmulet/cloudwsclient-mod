@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+    <module jar="org-iesapp-modules-cloudwsclient.jar" class="org.iesapp.modules.cloud.CloudModule" autoStart="no" multipleInstance="no" closable="no">
+        <anchor location="menu" parentId="jMenuModules"/>
+        <anchor location="toolbar" parentId="jToolBarModules"/>
+        <display location="topwindow" parentId="center"/>
+        <bundle>
+            <locale key="title" value="ca"><![CDATA[Núvol fitxers]]></locale>
+            <locale key="title" value="es"><![CDATA[Nube ficheros]]></locale>
+            <locale key="title" value="default"><![CDATA[Cloud browser]]></locale>
+            <locale key="description" value="default"><![CDATA[This explorer allows you to upload and download files to-from the cloud server]]></locale>
+        </bundle>
+        <metaINF author="Josep Mulet (c) 2012" version="1.0" dependencies=""/>
+     </module>    
+</root>
